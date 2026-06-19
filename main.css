@@ -1,4 +1,113 @@
-  html{
+  @media (max-width : 430px) {
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0F172A;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    p {
+      color: #ffffff;
+    }
+
+    header {
+      background: #3B82F6;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      cursor: pointer;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+
+    .project {
+      display: flex;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      justify-content: center;
+      flex-direction: column;
+      padding: 5px;
+      max-width: 320px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    .project p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    footer {
+      background: #3B82F6;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+
+    .about p {
+      color: #ffffff
+    }
+
+  }
+
+  @media (min-width : 431px) and (max-width : 1023px) {}
+
+  @media (min-width: 1024px) {}
+
+  /* html{
     scroll-behavior: smooth;
   }
   
@@ -88,4 +197,4 @@
 
   .about p{
     color:#ffffff
-  }
+  } */
